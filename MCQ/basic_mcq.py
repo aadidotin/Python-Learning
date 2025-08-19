@@ -34,7 +34,7 @@ questions = [
 correct_answers = incorrect_answers = 0
 
 for question in questions:
-    print(question["question"])
+    print(question["question"] + "\n")
 
     for option in question["options"]:
         print(f"({option["value"].upper()}) {option["label"]}")
